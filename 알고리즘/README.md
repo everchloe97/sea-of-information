@@ -24,3 +24,4 @@
 | 일자           | 출처 - 문제이름      | 링크                              |
 | -------------- |  ------------------ | --------------------------------- |
 | 2022 / 08 / 21 |  백준 - 오큰수       | https://www.acmicpc.net/problem/17298 |
+| 2022 / 08 / 27 |  programmers - 방문 길이      | https://school.programmers.co.kr/learn/courses/30/lessons/49994 |
