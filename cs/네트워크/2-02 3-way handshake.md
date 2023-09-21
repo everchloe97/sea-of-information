@@ -1,6 +1,6 @@
 ---
 title: 3-way handshake
-author: 박신영
+
 date: 2022-07-29
 ---
 

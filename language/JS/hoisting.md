@@ -1,6 +1,6 @@
 ---
 title: hoisting
-author: 박신영
+
 date: 2022-08-03
 ---
 
@@ -19,21 +19,21 @@ date: 2022-08-03
 
 1. **선언 단계 (Declaration phase)**
 
-   변수를 [실행 컨텍스트](https://poiemaweb.com/js-execution-context)의 변수 객체(Variable Object)에 등록한다. 이 변수 객체는 스코프가 참조하는 대상이다.
+    변수를 [실행 컨텍스트](https://poiemaweb.com/js-execution-context)의 변수 객체(Variable Object)에 등록한다. 이 변수 객체는 스코프가 참조하는 대상이다.
 
-   > 실행 컨텍스트: 실행 가능한 코드가 실행되기 위해 필요한 환경 (실행 가능한 코드: 전역 코드, Eval 코드, 함수 코드)
+    > 실행 컨텍스트: 실행 가능한 코드가 실행되기 위해 필요한 환경 (실행 가능한 코드: 전역 코드, Eval 코드, 함수 코드)
 
 2. **초기화 단계 (Initialization phase)**
 
-   변수 객체(Variable Object)에 등록한 변수를 위한 공간을 메모리에 확보한다. 여기서 변수는 undefined로 초기화된다.
+    변수 객체(Variable Object)에 등록한 변수를 위한 공간을 메모리에 확보한다. 여기서 변수는 undefined로 초기화된다.
 
 3. **할당 단계 (Assignment phase)**
 
-   undefined로 초기화된 변수에 실제 값을 할당한다.
+    undefined로 초기화된 변수에 실제 값을 할당한다.
 
 #### var
 
-- var로 선언된 변수는 선언과 초기화가 한번에 이루어집니다. 따라서 변수 선언문 이전에 변수에 접근하여도 스코프에 변수가 존재하기 때문에 에러가 발생하지 않지만, undefined를 반환합니다. 이 후 할당문에 도달하면 비로소 값이 할당됩니다. 이런 현상을 `변수 호이스팅`이라고 합니다.
+-   var로 선언된 변수는 선언과 초기화가 한번에 이루어집니다. 따라서 변수 선언문 이전에 변수에 접근하여도 스코프에 변수가 존재하기 때문에 에러가 발생하지 않지만, undefined를 반환합니다. 이 후 할당문에 도달하면 비로소 값이 할당됩니다. 이런 현상을 `변수 호이스팅`이라고 합니다.
 
 ```js
 console.log(yap); //undefined
@@ -47,18 +47,18 @@ console.log(yap); //100
 
 #### let
 
-- let은 선언과 초기화가 분리되어 진행됩니다. 스코프에 변수를 등록하지만, 초기화는 변수 선언문에 도달했을 때 이루어집니다. 따라서 선언문 이전에 변수를 참조하려고 하면 참조 에러가 발생합니다. 따라서 스코프의 시작부터 초기화 시작 지점가지는 변수를 참조할 수 없습니다.
+-   let은 선언과 초기화가 분리되어 진행됩니다. 스코프에 변수를 등록하지만, 초기화는 변수 선언문에 도달했을 때 이루어집니다. 따라서 선언문 이전에 변수를 참조하려고 하면 참조 에러가 발생합니다. 따라서 스코프의 시작부터 초기화 시작 지점가지는 변수를 참조할 수 없습니다.
 
 > 스코프의 시작 지점부터, 초기화 시작 지점 까지의 구간을 '일시적 사각지대 (Temporal Dead Zone, TDZ)'이라고 한다.
 
 그러면 호이스팅이 발생하지 않는 것이라고 생각할 수 있지만 그렇지 않습니다
 
 ```js
-let hello = 'hi!'; //전역변수
+let hello = "hi!"; //전역변수
 
 {
-  console.log(hello); //Reference Error: hello is not defined
-  let hello = "what's up!"; //지역변수
+    console.log(hello); //Reference Error: hello is not defined
+    let hello = "what's up!"; //지역변수
 }
 ```
 

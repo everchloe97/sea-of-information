@@ -1,6 +1,6 @@
 ---
 title: TCP/IP 4계층 모델
-author: 박신영
+
 date: 2022-07-29
 ---
 

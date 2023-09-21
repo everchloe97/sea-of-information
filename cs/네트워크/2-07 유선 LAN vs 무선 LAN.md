@@ -1,6 +1,6 @@
 ---
 title: 유선 LAN vs 무선 LAN
-author: 박신영
+
 date: 2022-08-03
 ---
 

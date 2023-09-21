@@ -1,8 +1,9 @@
 ---
 title: garbage collection의 특징
-author: 염하늘
+
 date: 2022-08-07
 ---
+
 ## 면접 질문
 
 자바의 가비지 컬렉션에 대해서 설명해주세요

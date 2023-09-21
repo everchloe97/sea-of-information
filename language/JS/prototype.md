@@ -1,6 +1,6 @@
 ---
 title: Prototype
-author: 박신영
+
 date: 2022-08-03
 ---
 
@@ -16,17 +16,17 @@ date: 2022-08-03
 
 ```js
 class Human {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
 
-  sleep() {
-    console.log(`${this.name}은 잠에 들었습니다`);
-  }
+    sleep() {
+        console.log(`${this.name}은 잠에 들었습니다`);
+    }
 }
 
-let shiny = new Human('신영', 30);
+let shiny = new Human("신영", 30);
 
 Human.prototype.constructor === Human; // true
 Human.prototype === shiny.__proto__; // true
@@ -35,8 +35,8 @@ Human.prototype.sleep === shiny.sleep; // true
 
 ![](https://cdn.discordapp.com/attachments/879215554379018243/1004316021777252402/unknown.png)
 
-- 클래스를 만들면 클래스의 `prototype` 속성이 만들어집니다. 여기에 클래스의 `속성`과 `메소드`가 들어있습니다.
-- 클래스를 통해 `인스턴스 객체`를 만들면, 인스턴스는 `prototype 객체`를 참조합니다.
+-   클래스를 만들면 클래스의 `prototype` 속성이 만들어집니다. 여기에 클래스의 `속성`과 `메소드`가 들어있습니다.
+-   클래스를 통해 `인스턴스 객체`를 만들면, 인스턴스는 `prototype 객체`를 참조합니다.
 
 ---
 
