@@ -1,4 +1,5 @@
 /private
+*.png
 
 # OS
 .DS_Store
