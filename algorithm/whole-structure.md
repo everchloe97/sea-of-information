@@ -2,7 +2,7 @@
 
 Stack & Queue
 
-## ![](../Stack-Queue.jpg)
+## ![](../reference/stack-queue.jpg)
 
 Tree
 
