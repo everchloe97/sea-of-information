@@ -3,7 +3,7 @@ const s2 = ["com", "b", "d", "p", "c"];
 
 function solution(s1, s2) {
     const s = [...s1, ...s2];
-    // const set_s = s.filter((v, i) => s.indexOf(v) != i);
+    // const duplicated_s = s.filter((v, i) => s.indexOf(v) != i);
     return s.filter((v, i) => s.indexOf(v) != i).length;
 }
 
