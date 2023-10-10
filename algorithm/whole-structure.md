@@ -6,6 +6,8 @@ Stack & Queue
 
 Tree
 
+## ![](../reference/tree.jpg)
+
 1. Binary Tree - 자식 node를 **최대 2개** 가질 수 있는 Tree
 
 2. B-Tree (Balanced Tree) - 자식 node를 2개 이상 가질 수 있는 Tree <br/>
