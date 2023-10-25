@@ -1,10 +1,10 @@
 ### 자료 구조 전반
 
-Stack & Queue
+### Stack & Queue
 
 ## ![](../reference/stack-queue.jpg)
 
-Tree
+### Tree
 
 ## ![](../reference/tree.jpg)
 
@@ -16,3 +16,8 @@ Tree
 3. B+Tree - 같은 레벨의 형제 node는 연결 리스트 형태로 이어져 있는 Tree
    *index node
    *data node
+
+### 팰린드롬(palindrome)
+- 앞뒤를 뒤집어도 똑같은 문자열 <br/>
+ex) 토마토, racecar <br/>
+https://school.programmers.co.kr/learn/courses/30/lessons/12904?
