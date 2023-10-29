@@ -2,7 +2,7 @@
 
 ### Stack & Queue
 
-## ![](../reference/stack-queue.jpg)
+## ![](../reference/stack-queue-deque.png)
 
 ### Tree
 
