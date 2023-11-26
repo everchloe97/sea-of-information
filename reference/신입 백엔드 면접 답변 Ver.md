@@ -89,6 +89,9 @@ ex) Sorted Set
 6. 쿠버네티스에 대하여 설명하고, 사용하는 이유를 이야기해주세요.
 7. 쿠버네티스는 어떤 구조로 실행이 되는지 설명해주세요.
 8. CI/CD에 대하여 설명해주세요.
+9. 컨테이너와 가상머신의 차이는 무엇일까요? - 보통 컨테이너의 장점을 논할 때 가장 많이 언급되는 부분이 가상 머신 대비 높은 성능과 효율. 컨테이너는 보통 물리 서버에 Docker daemon을 설치하고, 그 위에 컨테이너를 하나씩 배포함. hypervisor 기반에서 동작되는 vm보다 훨씬 더 많은 서비스를 올릴 수 있다.
+**VM -> hypervisor 기반 / Container -> 필요한 모든 것이 packaging**
+[Container vs VM](https://www.redhat.com/ko/topics/containers/containers-vs-vms)
 
 ### Computer science
 
