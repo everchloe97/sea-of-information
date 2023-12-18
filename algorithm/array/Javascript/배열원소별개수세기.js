@@ -4,6 +4,7 @@ const arr  = ['a','a','b','c']
 
 // 각 원소의 개수?
 
+
 // 1. for
 const pair = {}
 for (const v of arr){
